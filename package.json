@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.0.0",
+    "@material-tailwind/react": "^1.0.8",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
