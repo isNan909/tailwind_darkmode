@@ -1,50 +1,18 @@
 import React from 'react';
 import Toggle from '../components/toggle';
-import logo from '../images/Tailwind.png';
+
 
 const Navbar = () => {
   return (
-    <header className="text-gray-700 bg-white dark:bg-black body-font ">
-      <div className="flex lg:container flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row justify-between">
-        <div className="flex">
-          <a
-            href="javascript.void(0)"
-            className="flex items-center w-40 mb-4 font-medium text-gray-900 title-font md:mb-0"
-          >
-            <img src={logo} alt="tailwind" className="w-9 h-9" />
-          </a>
-          <nav className="flex flex-wrap items-center justify-center ml-4 text-base">
-            <a
-              href="javascript.void(0)"
-              className="mr-5 text-sm font-semibold text-gray-700 dark:text-white rounded-xl hover:text-gray-800"
-            >
-              Dashboard
-            </a>
-            <a
-              href="javascript.void(0)"
-              className="mr-5 text-sm font-semibold text-gray-700 dark:text-white rounded-xl hover:text-gray-800"
-            >
-              Projects
-            </a>
-            <a
-              href="javascript.void(0)"
-              className="mr-5 text-sm font-semibold text-gray-700 dark:text-white rounded-xl hover:text-gray-800"
-            >
-              Setting
-            </a>
-            <a
-              href="javascript.void(0)"
-              className="mr-5 text-sm font-semibold text-gray-700 dark:text-white rounded-xl hover:text-gray-800"
-            >
-              Account
-            </a>
-          </nav>
-        </div>
-        <div>
+    <header>
+    <div className='text-black flex justify-between mb-5 items-center h-24 max-w-[1240px] mx-auto px-4'>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a] dark:text-white">BLOG.</h1>          
+        <div className="p-4 flex">
           <Toggle />
-        </div>
-      </div>
-    </header>
+     </div>
+
+</div>
+</header>
   );
 };
 
